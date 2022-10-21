@@ -1,0 +1,124 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css"; /* pour importer les icones */
+body{
+  margin: 0;/*pour supprimer les marges par default du navigateur */
+  padding: 0;
+  background: #ffe3c2;
+}
+
+*{
+  font-family: 'Comfortaa', cursive;
+}
+
+
+.connexion{
+  width: 450px;
+  position: absolute;
+  top: 50%; 
+  left: 50%; /*top: 50% et  left: 50%; c'est pour centrer la boite de connexion par rapport a son origine (en haut à gauche) */
+  transform: translate(-50%,-50%); /* c'est pour centrer la boite de connexion par rapport a son center */
+  color: white;
+  background: #404040;
+  padding: 2% 4%;
+  box-shadow: 3px 3px 20px black;
+  text-align: center;
+
+}
+
+.connexion .conn{
+  font-size: 30px;
+  border-bottom: 3px solid #ec7357;
+  border-top: 3px solid #ec7357;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+
+.connexion > .titre_de_page{
+  color: #ec7357;
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.zone_text{
+  
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 1px solid #ec7357;
+  margin-bottom: 30px;
+  padding: 5% 3px;
+}
+.zone_text i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.zone_text input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  height: 50px;
+  background: none;
+  border: 2px solid #c7bfbd;
+  color: white;
+  padding: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 12px 0;
+  transition: 500ms;
+}
+
+.btn:hover{
+    background: #ec7357;
+}
+
+.inscription{
+  text-decoration: none;
+  color: #ec7357;
+  transition: 100ms;
+}
+
+.inscription:hover{
+  text-decoration: none;
+  color: #c85137;
+}
+
+.alert {
+  position: absolute;
+  width: 350px;
+  padding: 20px;
+  background-color: #f44336b2; 
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 450px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+#erreurs {
+  padding: 10px 20px;
+  background-color: #c85137;
+  text-align: center;
+}
